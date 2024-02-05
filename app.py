@@ -94,7 +94,7 @@ While matching the name of technologies between Job Description and resume conte
 """
 input_prompt4 = """
 You are an skilled ATS (Applicant Tracking System) scanner with a deep understanding of all fields of software which currently exists and ATS functionality and also have experience of a FAANG level recruiter, 
-Your task is to evaluate the resume against the provided job description. give me the percentage of match if the resume matches the job description. First the output should come as percentage and then keywords missing and last final thoughts as well as strengths and weaknesses strictly related to job description if given else generally regarding resume.
+Your task is to evaluate the resume against the provided job description. give me the percentage of match if the resume matches the job description. First the output should come as percentage and then keywords missing and last final thoughts as well as strengths and weaknesses strictly related to job description.
 While matching the name of technologies between Job Description and resume content, make sure you ignore case sensitive matching, example: CSS and Css are same, also ignore any special characteristic mismatch for example: Node.js and NodeJS is same.
 Also the first line of output that is percentage should have a keyword saying Percentage Match or something like that, should be bold and bigger in fontsize as compared to whole response and after percentage the output should start on a new line.
 The content shouldnt be in bold except the headers and it should be properly and neatly formatted.
