@@ -2,13 +2,21 @@
 
 ## Overview
 
-The **ATS Scanner Web App** is a tool designed to streamline the resume scanning process for job applications. This application allows users to input a job description, upload a resume in PDF format, and then analyze the resume for relevance to the provided job description. Additionally, users can calculate the **percentage match** between the job description and the resume content.
+The **ATS Scanner Web App** is a powerful tool designed to streamline the resume scanning process for job applications. This application offers a range of features to assist recruiters and hiring managers in efficiently evaluating resumes. The key features include:
+
+1. **Percentage Match:** Calculate the percentage match between a given job description and an uploaded resume.
+
+2. **Missing Keywords Analysis:** Identify keywords that are missing in the resume concerning the provided job description.
+
+3. **Skills Improvement Suggestions:** Receive personalized suggestions on how to improve skills based on the content of the resume.
+
+4. **Resume Overview:** Quickly gather essential information about a resume, including skills, experience, and education.
 
 ## Prerequisites
 
 Before running the application, ensure you have the following dependencies installed:
 
-- **Python 3.6 or higher**
+- **Python 3.9 or higher**
 - **Streamlit:** Install using `pip install streamlit`
 
 ## Getting Started
@@ -48,6 +56,6 @@ This application utilizes the **Google Gemini API** and its **LLM (Large Languag
 
 ## Usefulness
 
-The **ATS Scanner Web App** is a valuable tool for recruiters and hiring managers looking to efficiently review and match resumes to specific job requirements. By leveraging advanced language models, the app aims to save time and improve the accuracy of the candidate selection process.
+The **ATS Scanner Web App** is a valuable tool for recruiters and hiring managers. Its multifaceted features allow users to not only match resumes with job descriptions but also receive insights on missing keywords, skill improvement suggestions, and a quick overview of resumes. By leveraging advanced language models, the app aims to save time and improve the accuracy of the candidate selection process.
 
 Feel free to contribute, report issues, or suggest enhancements to make this tool even more powerful!
